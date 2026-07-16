@@ -24,7 +24,7 @@ Completed using Python and Jupyter Notebook:
 │   ├── external/
 │   └── processed/
 ├── notebooks/
-│   └── 01_data_preparation.ipynb
+│   └── data_preparation.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -37,7 +37,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Open `01_data_preparation.ipynb` in VS Code and run the cells from top to bottom.
+Open `data_preparation.ipynb` in VS Code and run the cells from top to bottom.
 
 ## Next Steps
 
