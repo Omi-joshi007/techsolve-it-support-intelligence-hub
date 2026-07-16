@@ -1,0 +1,14 @@
+check,count
+Final rows,100851
+Duplicate ticket IDs,0
+Invalid created dates,8
+Invalid resolved dates,5
+Missing team,2017
+Missing assigned analyst,2017
+Missing CSAT,2017
+Category review required,0
+Resolved before created,50
+First response greater than resolution,14750
+SLA breach mismatch,50196
+Rows in 2024-2025,67167
+Holiday matches,2769
