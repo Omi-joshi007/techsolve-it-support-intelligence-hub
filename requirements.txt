@@ -3,3 +3,14 @@ numpy
 openpyxl
 holidays
 requests
+ipykernel
+openai-agents
+python-dotenv
+dash
+plotly
+python-dotenv
+openai-agents
+dash
+gunicorn
+fastapi
+uvicorn[standard]

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>TechSolve Support IT</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/static/styles.css" />
+	</head>
+	<body>
+		<div class="orb a"></div>
+		<div class="orb b"></div>
+		<main class="shell">
+			<nav>
+				<div class="logo"><span>TS</span> TechSolve IT Intelligence</div>
+				<div class="live"><i></i> Agent online</div>
+			</nav>
+			<section class="hero">
+				<p class="label">AI-POWERED SERVICE OPERATIONS</p>
+				<h1>TechSolve IT - AI Agent<br /></h1>
+				<p>
+					Ask natural-language questions. The agent selects controlled analytical tools, calculates results
+					and returns evidence-backed insights.
+				</p>
+			</section>
+			<section class="workspace">
+				<article class="card">
+					<div class="heading">
+						<div>
+							<p class="label">ANALYSIS REQUEST</p>
+							<h2>Ask the support agent</h2>
+						</div>
+						<span class="spark">✦</span>
+					</div>
+					<textarea
+						id="question"
+						maxlength="500"
+						placeholder="Which teams have the highest SLA breach rate?"
+					></textarea>
+					<div class="footer-row">
+						<span id="counter">0 / 500</span><button id="ask">✦ Analyse data</button>
+					</div>
+					<div class="suggestions">
+						<p class="label">SUGGESTED QUESTIONS</p>
+						<div id="chips"></div>
+					</div>
+				</article>
+				<article class="card">
+					<div class="heading">
+						<div>
+							<p class="label">AGENT RESPONSE</p>
+							<h2>Operational intelligence</h2>
+						</div>
+						<div class="ai">AI</div>
+					</div>
+					<div id="answer" class="answer empty">
+						<div class="radar">✦</div>
+						<h3>Ready to investigate your data</h3>
+						<p>Your grounded answer, evidence and recommendation will appear here.</p>
+					</div>
+				</article>
+			</section>
+			<footer class="footer">
+				<p>&copy; 2026 TechSolve IT. All rights reserved.</p>
+			</footer>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script src="/static/app.js"></script>
+	</body>
+</html>
